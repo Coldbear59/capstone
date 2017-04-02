@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/main">
@@ -11,6 +10,7 @@
         android:layout_height="60dp"
         android:layout_marginTop ="300dp"
         android:background="@drawable/find_room_btn"
+        android:onClick="myListener"
         />
 
     <Button
@@ -18,14 +18,16 @@
         android:layout_width="fill_parent"
         android:layout_height="60dp"
         android:layout_below="@id/find_room_btn"
-        android:background="@drawable/study_btn"/>
+        android:background="@drawable/study_btn"
+        />
 
         <Button
             android:id="@+id/usage_btn"
             android:layout_width="fill_parent"
             android:layout_height="60dp"
             android:layout_below="@id/study_btn"
-            android:background="@drawable/usage_btn"/>
+            android:background="@drawable/usage_btn"
+            />
 
 
 </RelativeLayout>
