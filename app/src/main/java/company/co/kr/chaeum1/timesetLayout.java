@@ -1,11 +1,13 @@
 package company.co.kr.chaeum1;
 
 import android.app.Activity;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 
 /**
@@ -35,6 +37,7 @@ public class timesetLayout extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(parent.getContext(), parent.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT).show();
+                ((TextView) parent.getChildAt(0)).setTextColor(Color.BLACK);
             }
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
@@ -45,6 +48,7 @@ public class timesetLayout extends Activity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Toast.makeText(parent.getContext(), parent.getItemAtPosition(position).toString(), Toast.LENGTH_SHORT).show();
+                ((TextView) parent.getChildAt(0)).setTextColor(Color.BLACK);
             }
 
             @Override
@@ -54,5 +58,18 @@ public class timesetLayout extends Activity {
         });
 
 
+       /* @Override
+        public View getDropDownView(int position, View convertView, ViewGroup parent){
+            if(convertView == null){
+                LayoutInflater inflater = LayoutInflater.from(context);
+                convertView = inflater.inflate(android.R.layout.simple_spinner_dropdown_item, parent, false);
+            }
+
+            TextView tv = (TextView) convertView.findViewById(android.R.id.text1);
+            tv.setText(items[position]);
+            tv.setTextColor(Color.BLACK);
+            tv.setTextSize(12);
+            tv.setHeight(50);
+            return convertView; */
+        }
     }
-}

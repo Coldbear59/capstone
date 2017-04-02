@@ -46,15 +46,15 @@
 
         <Spinner
             android:id="@+id/week_spinner"
-            android:layout_width="wrap_content"
+            android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:textColor="#000000"
-            android:background="#FCFCD1"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
             android:prompt="@string/week_prompt"
             android:spinnerMode="dropdown"
-            android:layout_marginLeft="10dp"
+            style = "@style/week_spinner_st"
             />
 
             <TextView
@@ -69,15 +69,16 @@
 
             <Spinner
                 android:id="@+id/time_spinner"
-                android:layout_width="wrap_content"
+                android:layout_width="70dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
-                android:textColor="#000000"
-                android:background="#FCFCD1"
+                android:textColor="#ffffff"
                 android:prompt="@string/time_prompt"
                 android:spinnerMode="dropdown"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                style = "@style/week_spinner_st"
+                />
 
     </LinearLayout>
 </RelativeLayout>

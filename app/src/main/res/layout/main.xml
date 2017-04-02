@@ -7,8 +7,8 @@
     <Button
         android:id="@+id/find_room_btn"
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
-        android:layout_marginTop ="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop ="440dp"
         android:background="@drawable/find_room_btn"
         android:onClick="myListener"
         />
@@ -16,7 +16,7 @@
     <Button
         android:id="@+id/study_btn"
         android:layout_width="fill_parent"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:layout_below="@id/find_room_btn"
         android:background="@drawable/study_btn"
         />
@@ -24,7 +24,7 @@
         <Button
             android:id="@+id/usage_btn"
             android:layout_width="fill_parent"
-            android:layout_height="60dp"
+            android:layout_height="70dp"
             android:layout_below="@id/study_btn"
             android:background="@drawable/usage_btn"
             />
