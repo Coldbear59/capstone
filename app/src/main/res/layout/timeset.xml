@@ -45,7 +45,7 @@
             android:textSize="20sp"/>
 
         <Spinner
-            android:id="@+id/week_spinner"
+            android:id="@+id/week_spinner_dropdown"
             android:layout_width="70dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
