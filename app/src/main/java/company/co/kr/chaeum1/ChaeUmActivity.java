@@ -11,10 +11,11 @@ public class ChaeUmActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+
     }
 
     public void myListener(View target) {
-        Intent intent = new Intent(getApplicationContext(), timesetLayout.class);
+        Intent intent = new Intent(getApplicationContext(), settingActivity.class);
         startActivity(intent);
     }
 }

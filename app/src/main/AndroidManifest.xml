@@ -23,8 +23,8 @@
         <activity android:name=".ChaeUmActivity">
         </activity>
 
-        <activity android:name=".timesetLayout"
-            android:label="timesetLayout">
+        <activity android:name = ".settingActivity"
+            android:label="settingActivity">
         </activity>
 
     </application>
