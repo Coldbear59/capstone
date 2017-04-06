@@ -23,4 +23,42 @@
         <item>9교시</item>
     </string-array>
 
+    <string name="location_prompt">장소 :  </string>
+    <string-array name="location_array">
+        <item>모든장소</item>
+        <item>공과대학</item>
+        <item>인문대학</item>
+        <item>사회과학대학</item>
+        <item>상과대학</item>
+        <item>생활과학대학</item>
+        <item>자연과학대학</item>
+    </string-array>
+
+    <string name="number_prompt">호관</string>
+
+    <string-array name = "engineer_number_array">
+        <item>1호관</item>
+        <item>2호관</item>
+        <item>3호관</item>
+        <item>4호관</item>
+        <item>5호관</item>
+        <item>6호관</item>
+        <item>7호관</item>
+        <item>8호관</item>
+        <item>9호관</item>
+    </string-array>
+
+    <string-array name = "human_number_array">
+        <item>1호관</item>
+        <item>2호관</item>
+    </string-array>
+
+    <string-array name = "society_number_array">
+        <item>1호관</item>
+    </string-array>
+
+    <string-array name ="reminder_number_array">
+
+    </string-array>
+
 </resources>

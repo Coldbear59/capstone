@@ -15,7 +15,7 @@ public class ChaeUmActivity extends Activity {
     }
 
     public void myListener(View target) {
-        Intent intent = new Intent(getApplicationContext(), settingActivity.class);
+        Intent intent = new Intent(getApplicationContext(), SlidingActivity.class);
         startActivity(intent);
     }
 }
