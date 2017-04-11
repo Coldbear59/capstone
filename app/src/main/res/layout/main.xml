@@ -18,8 +18,7 @@
         android:layout_width="fill_parent"
         android:layout_height="70dp"
         android:layout_below="@id/find_room_btn"
-        android:background="@drawable/study_btn"
-        />
+        android:background="@drawable/study_btn" />
 
         <Button
             android:id="@+id/usage_btn"
