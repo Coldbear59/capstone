@@ -61,4 +61,7 @@
 
     </string-array>
 
+    <!-- 개발할 때 자신의 app_id 적용하기-->
+    <string name="facebook_app_id">277109296079664</string>
+
 </resources>

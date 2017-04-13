@@ -11,11 +11,15 @@ public class ChaeUmActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-
     }
 
     public void myListener(View target) {
         Intent intent = new Intent(getApplicationContext(), SlidingActivity.class);
+        startActivity(intent);
+    }
+
+    public void StudyListener(View target) {
+        Intent intent = new Intent(getApplicationContext(),FaceBookLogin.class);
         startActivity(intent);
     }
 }
