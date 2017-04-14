@@ -19,7 +19,7 @@ public class ChaeUmActivity extends Activity {
     }
 
     public void StudyListener(View target) {
-        Intent intent = new Intent(getApplicationContext(),FaceBookLogin.class);
+        Intent intent = new Intent(getApplicationContext(),StudyListActivity.class);
         startActivity(intent);
     }
 }

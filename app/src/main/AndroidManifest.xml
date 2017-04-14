@@ -38,6 +38,9 @@
         <activity android:name=".FaceBookLogin">
         </activity>
 
+        <activity android:name=".StudyListActivity">
+        </activity>
+
     </application>
 
 </manifest>
